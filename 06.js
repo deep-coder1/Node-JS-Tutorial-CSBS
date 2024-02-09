@@ -1,6 +1,6 @@
 // Core Module in Node JS 
 
-// const fs = require('fs'); // Nom Global Module / In top line rwcomnded but not necessary
+// const fs = require('fs'); // Non Global Module / In top line rwcomnded but not necessary
 
 console.log("Node JS Tutorial");  // Core Module // Global Module
 // fs.writeFileSync("06hello.txt","Core Module in Node JS");
