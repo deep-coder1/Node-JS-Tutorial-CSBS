@@ -3,6 +3,7 @@ const fs = require('fs');
 // fs.writeFileSync('12_Data1.txt', 'This is a 12 Data 1 File');
 // Create a file name is 12_Data1.txt' and file under text data 'This is a 12 Data 1 File'
 
+// Create file folder
 // In this code create a file under files folder
 const path = require('path');
 const dirPath = path.join(__dirname, 'files');
@@ -20,6 +21,16 @@ console.warn(dirPath);
 //     console.warn(files);
 // });
 
+// Output:
+// E:\Study\Node Tut\Node-JS-Tutorial-CSBS\files
+// [
+//   '12_Data1.txt',
+//   '12_Data2.txt',
+//   '12_Data3.txt',
+//   '12_Data4.txt',
+//   '12_Data5.txt'
+// ]
+
 // Read file name not in array 
 fs.readdir(dirPath,(err,files)=>{
     // console.warn(files);
@@ -27,5 +38,13 @@ fs.readdir(dirPath,(err,files)=>{
         console.log("File name is: " ,item);
     })
 });
+
+// Output:
+// E:\Study\Node Tut\Node-JS-Tutorial-CSBS\files
+// File name is: 12_Data1.txt
+// File name is: 12_Data2.txt
+// File name is: 12_Data3.txt
+// File name is: 12_Data4.txt
+// File name is: 12_Data5.txt
 
 // 02:10:22 Vide Time End
