@@ -46,3 +46,5 @@ const main = async ()=>{
 main();
 
 // 05:17:19 Video Time End
+
+// 30_Read_Data_MongoDB.js and mongodb30 file are in same video 30

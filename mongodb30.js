@@ -36,3 +36,5 @@ async function dbConnect(){
 // main();
 
 module.exports = dbConnect;
+
+// 30_Read_Data_MongoDB.js and mongodb30 file are in same video 30
