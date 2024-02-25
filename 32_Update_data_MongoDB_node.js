@@ -9,6 +9,7 @@ const dbConnect = require("./mongodb");
 
 const updateData = async () => {
   let data = await dbConnect();
+//   let result = await data.updateOne(
   let result = await data.updateMany(
     { name: "note 5" },
     {
